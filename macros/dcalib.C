@@ -6,7 +6,7 @@ struct hit_t {
 };
 
 void
-dcalib(const std::string infilename, const std::string outfilename, int channel)
+dcalib(const std::string infilename, int channel, const std::string outfilename)
 {
   
   /** open input file, get tree and
